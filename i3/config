@@ -37,8 +37,9 @@ bindsym $win+Shift+o gaps outer current minus 2
 bindsym $mod+Shift+q kill
 bindsym $mod+q kill
 
-# start dmenu (a program launcher)
-bindsym $mod+Return exec termite
+# start dmenu & termite (win + enter for bash)
+bindsym $mod+Return exec termite -e zsh
+bindsym $win+Return exec termite
 bindsym $mod+d exec --no-startup-id rofi -show run -location 7 -dpi 180 -lines 10 -theme ~/.config/rofi-themes/official/Monokai.rasi
 
 # quick swap workspaces
