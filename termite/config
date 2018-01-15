@@ -49,9 +49,8 @@ filter_unmatched_urls = true
 # Base16 Ashes
 # Author: Jannik Siebert (https://github.com/janniks)
 
-foreground      = #C7CCD1
+cursor          = rgba(173,147,48,0.45)
 foreground_bold = #DFE2E5
-cursor          = #DFE2E5
 background      = rgba(40, 40, 40, 0.92)
 
 # 16 color space
