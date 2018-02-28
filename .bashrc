@@ -27,6 +27,9 @@ alias gitc='git clone'
 alias gits='git status'
 alias gcom='git commit -m '
 alias gcoma='git commit -am '
+alias gpush='git push'
+alias gpull='git pull'
+
 
 alias wifi='sudo wifi-menu'
 alias startsnap='sudo systemctl start snapd'
