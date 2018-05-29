@@ -1,0 +1,87 @@
+# - launchers + scriptlets
+alias r=ranger
+alias r1="r --cmd='set viewmode!'"
+alias yt=youtube-viewer
+alias ytd='cd ~/Videos && youtube-dl '
+alias t='cd ~/Downloads/Programs/tor-browser  && ./start-tor-browser.desktop && exit'
+alias grip='firefox localhost:6419 && grip README.md'
+alias tree='tree --filelimit 20'
+alias lock='~/.scripts/lock.sh'
+alias dockerbash="docker run -it bash"
+alias sctl="sudo systemctl "
+
+# - neovim
+alias v=nvim
+alias e=nvim
+alias sv='sudo nvim'
+alias se='sudo nvim'
+alias v.plugs='pacman -Sg vim-plugins'
+alias v.bundles='cd ~/.vim/bundle'
+
+# - git, hub
+alias git=hub
+alias gitc='hub clone'
+alias gstat='hub status'
+alias gcom='hub commit -m'
+alias gcoma='hub commit -am'
+alias gpush='hub push'
+alias gpull='hub pull'
+alias gstash='hub stash'
+
+# - docker, Digital Ocean
+alias init-doctl="source <(doctl completion zsh)"
+alias dockupd='docker-compose up -d'
+
+# - npm 
+alias npmi='npm i --save'
+alias npmd='npm i --save-dev'
+alias npmg='npm i -g '
+alias nstart='npm start'
+alias nps='npm search'
+alias npi='npm info'
+alias npiw='npm info | grep homepage'
+alias nodes='nodemon'
+alias npmgls="npm list -g --depth=0"
+
+# - conf shortcuts
+alias conf='cd ~/.config'
+alias zshrc='v ~/.zshrc'
+alias zshenv='v ~/.zshenv'
+alias zprofile='v ~/.zprofile'
+alias vimrc='v ~/.config/nvim/init.vim'
+
+# - cd bookmarks
+alias dc="cd ~/Documents"
+alias dcp="cd ~/Documents/projects"
+alias dct="cd ~/Documents/project-testing"
+alias dt="cd ~/Templates"
+alias dtn="cd ~/Templates/node"
+alias dtd="cd ~/Templates/docker"
+alias dp="cd ~/Public"
+
+# - ranger bookmarks
+alias di="r ~/Pictures"
+alias dv="r ~/Videos"
+alias dva="r1 ~/Videos/anime"
+alias dvt="r1 ~/Videos/tutorials"
+alias dve="r1 ~/Videos/tutorials/egghead.io"
+alias dvy="r1 ~/Videos/tutorials/youtube"
+
+# - ls
+alias ls='ls --color=auto'
+alias ll='ls -l'
+alias la='ll -a'
+alias lx='ls -XA'
+
+# - install pkgs
+alias pac='sudo pacman -S'
+alias aur='yaourt -S'
+# - upgrade pkgs
+alias pacre='sudo pacman -Syy'
+alias pacup="sudo pacman -Syyu"
+alias aurup='yaourt -Syyu --aur --no-confirm'
+# - search pkgs
+alias src='pacman -Ss'
+alias srci='pacman -Si'
+alias srch='yaourt -Ss'
+alias srchi='yaourt -Si'

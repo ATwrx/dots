@@ -1,0 +1,18 @@
+# - ranger aliases
+alias r=ranger
+alias r1="r --cmd='set viewmode!'"
+# - cd bookmarks
+alias dc="cd ~/Documents"
+alias dcp="cd ~/Documents/Code/Projects"
+alias dct="cd ~/Documents/Code/WIPorTESTING"
+alias dt="cd ~/Templates"
+alias dtn="cd ~/Templates/node"
+alias dtd="cd ~/Templates/docker"
+alias dp="cd ~/Public"
+# - ranger bookmarks
+alias di="r ~/Pictures"
+alias dv="r ~/Videos"
+alias dva="r1 ~/Videos/anime"
+alias dvt="r1 ~/Videos/tutorials"
+alias dve="r1 ~/Videos/tutorials/egghead.io"
+alias dvy="r1 ~/Videos/tutorials/youtube"

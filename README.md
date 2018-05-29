@@ -4,8 +4,7 @@ It's a work in progress for now.
 Supported setups
 ----------------
 
-i3-gaps on ManjaroLinux
+env: i3-gaps 
+-------
+This is a WIP. Maybe you can find something useful, but I doubt it.
 
-
-These are only some .config's meant for personal use.
-For autoricing configs google lukesmithxyz; he has a nice scripted ricer called LARBS autoricer.

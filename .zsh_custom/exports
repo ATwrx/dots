@@ -1,0 +1,12 @@
+#!/bin/zsh
+
+export ZSH=/home/ao/.oh-my-zsh
+export TERM=xterm-256color
+export EDITOR=/usr/bin/nvim
+export MANPATH="/usr/local/man:$MANPATH"
+export ARCHFLAGS="-arch x86_64"
+export BROWSER='firefox'
+export PAGER='less'
+export EDITOR='nvim'
+export PGDATA=$HOME/.postgres_data
+
